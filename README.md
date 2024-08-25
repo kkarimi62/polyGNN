@@ -19,19 +19,14 @@ Nanoscale hardness in polycrystalline steels is influenced by microstructural fe
 - Python 3.x
 - TensorFlow
 - DeepMind’s GNN library
-- Other Python packages (see `requirements.txt`)
+- Other Python packages (see `gnnPolyCryst.ipynb`)
 
 ## Installation
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/steel-nanohardness-prediction.git
-    cd steel-nanohardness-prediction
-    ```
-
-2. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
+    git clone git@github.com:kkarimi62/polyGNN.git
+    cd polyGNN
     ```
 
 ## Usage
@@ -41,5 +36,4 @@ Nanoscale hardness in polycrystalline steels is influenced by microstructural fe
    - Place your data files in the `data/` directory.
 
 2. **Train the Model:**
-   ```bash
-   python train_gnn.py --data_dir data/ --epochs 100 --batch_size 32
+   - Execute Jupyter notebook `gnnPolyCryst.ipynb`
