@@ -2,6 +2,8 @@
 
 This repository contains code and resources for predicting nanoscale hardness in polycrystalline metals using Graph Neural Networks (GNNs). The methods and models presented here are based on the research paper titled **"Prediction of steel nanohardness by using graph neural networks on surface polycrystallinity maps"**, published in *Scripta Materialia* ([Karimi et al. Scripta Materialia, 234:115559, 2023](https://doi.org/10.1016/j.scriptamat.2023.115559)).
 
+<img src="workFlow.jpg" width="800"/>
+
 ## Overview
 
 Nanoscale hardness in polycrystalline steels is influenced by microstructural features such as grain orientations and neighboring grain properties. This project uses GNNs to predict nanohardness from electron backscatter diffraction (EBSD) maps of 310S steel surfaces, focusing on grain-scale load-displacement curves.
